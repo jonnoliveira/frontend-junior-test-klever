@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/frontend-junior-test-klever/static/css/main.735b7387.css",
-    "main.js": "/frontend-junior-test-klever/static/js/main.c23dc203.js",
+    "main.js": "/frontend-junior-test-klever/static/js/main.5b74ccf4.js",
     "static/media/empty-wallet.png": "/frontend-junior-test-klever/static/media/empty-wallet.2d06ba224ae87bc00251.png",
     "static/media/shooting-star.svg": "/frontend-junior-test-klever/static/media/shooting-star.62657584a39edca1ec5ee489c21f0c2f.svg",
     "static/media/logo.svg": "/frontend-junior-test-klever/static/media/logo.e508030155275995c5f38fe7de486727.svg",
     "static/media/edit.svg": "/frontend-junior-test-klever/static/media/edit.bc8c27af0cd2dca42ad83428e76db87d.svg",
     "index.html": "/frontend-junior-test-klever/index.html",
     "main.735b7387.css.map": "/frontend-junior-test-klever/static/css/main.735b7387.css.map",
-    "main.c23dc203.js.map": "/frontend-junior-test-klever/static/js/main.c23dc203.js.map"
+    "main.5b74ccf4.js.map": "/frontend-junior-test-klever/static/js/main.5b74ccf4.js.map"
   },
   "entrypoints": [
     "static/css/main.735b7387.css",
-    "static/js/main.c23dc203.js"
+    "static/js/main.5b74ccf4.js"
   ]
 }
