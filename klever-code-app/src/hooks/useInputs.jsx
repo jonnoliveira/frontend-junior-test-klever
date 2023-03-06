@@ -29,10 +29,24 @@ function useInputs() {
   const itemEdited = (history) => {
     const items = JSON.parse(localStorage.getItem('wishWallet'));
     const newItems = items.filter((item) => item.name !== itemToEdit.name)
-    newItems.push(formValues);
 
-    localStorage.setItem('wishWallet', JSON.stringify(newItems))
-    history.push('/');
+    // Verifica se o array está vazio
+    if(newItems.length === 0) {
+      newItems.push(formValues);
+      localStorage.setItem('wishWallet', JSON.stringify(newItems))
+      history.push('/');
+    }
+    
+    // Verifica se o novo nome também ja existe
+    newItems.forEach((item) => {
+      if(item.name === formValues.name) {
+        return setNameIsValid(false);
+      } else {
+        newItems.push(formValues);
+        localStorage.setItem('wishWallet', JSON.stringify(newItems))
+        history.push('/');
+      }
+    })
   }
 
   // Validar e Salvar no localStorage
