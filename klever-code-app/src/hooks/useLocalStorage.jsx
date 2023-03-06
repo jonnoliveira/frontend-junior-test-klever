@@ -33,7 +33,7 @@ function useLocalStorage(history) {
                       className='home-wallet-items-btn'
                       onClick={() => recoverAndpush(item) }
                     >
-                      <img src={ edit } alt='Edit icon' />
+                      <img src={ edit } alt={`${ item.name } icon`} />
                     </button>
                     <h4 className='home-wallet-item-name'>{ item.name }</h4>
                   </div>

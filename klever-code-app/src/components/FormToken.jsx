@@ -34,7 +34,7 @@ function FormToken({ history, edit }) {
 
   // Remover item selecionado / Alerta
   function removeAlert() {
-    const confirmation = window.confirm('Tem certeza que deseja remover esse Token?');
+    const confirmation = global.confirm('Tem certeza que deseja remover esse Token?');
     if(confirmation === true) {
       const storage = JSON.parse(localStorage.getItem('wishWallet'));
       const newStorage = storage.filter((item) => item.name !== itemToEdit.name)
@@ -58,6 +58,7 @@ function FormToken({ history, edit }) {
             placeholder='KLV, DVK, KFI'
             onChange={ handleChange }
             id='input-name'
+            data-testid='input-name'
           />
         </label>
 
@@ -76,6 +77,7 @@ function FormToken({ history, edit }) {
             onChange={ handleChange }
             step='0.01'
             id='input-value'
+            data-testid='input-value'
           />
         </label>
 
