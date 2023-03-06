@@ -14,7 +14,7 @@
 
 #
 
-#### Acesse a aplicação clicando [aqui](https://jonnoliveira.github.io/frontend-junior-test-klever/)! :computer:
+## Acesse a aplicação clicando [aqui](https://jonnoliveira.github.io/frontend-junior-test-klever/)! :computer:
 
 #
 
