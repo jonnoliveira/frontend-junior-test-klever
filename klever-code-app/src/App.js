@@ -7,9 +7,9 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Switch>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/addToken' component={AddToken} />
       <Route exact path='/editToken' component={EditToken} />
+      <Route exact path='/addToken' component={AddToken} />
+      <Route exact path='/' component={Home} />
       <Route exact path='*' component={NotFound} />
     </Switch>
   );
