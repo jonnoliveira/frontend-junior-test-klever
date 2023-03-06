@@ -1,0 +1,71 @@
+.notfound-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.notfound-image-coments {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.notfound-image-coments img {
+  width: 150px;
+}
+
+.notfound-coments {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.notfound-coments h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  color: rgba(228, 228, 228, 0.336);
+}
+
+.notfound-coments p  {
+  font-size: 1em;
+  font-style: italic;
+  color: rgba(228, 228, 228, 0.336);
+  text-align: center;
+  line-height: 4vh;
+}
+
+.notfound-btn {
+  width: 100px;
+  padding: 1vh;
+  border-radius: 5px;
+  background-color: #aa33b5ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border: none;
+}
+
+@media screen and (min-width : 1440px) {
+  .notfound-image-coments img {
+    width: 250px;
+  }
+
+  .notfound-coments h3 {
+    font-size: 2em;
+  }
+  
+  .notfound-coments p  {
+    font-size: 1.5em;
+  }
+
+  .notfound-btn {
+    width: 100px;
+    font-size: 1em;
+  }
+}
+
