@@ -1,0 +1,16 @@
+.startTitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.startTitle-container img {
+  width: 7vh;
+  margin-right: 5px ;
+}
+
+@media screen and (min-width : 768px) {
+  .startTitle-container h2 {
+    font-size: 1.5em;
+  }
+}

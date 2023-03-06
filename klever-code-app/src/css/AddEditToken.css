@@ -1,0 +1,72 @@
+.addEditToken-container-inputs {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+
+.addEditToken-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4vh;
+}
+
+.addEditToken-title h3 {
+  font-size: 1em;
+}
+
+.addEditToken-title button {
+  border-radius: 5px;
+  width: 100px;
+  padding: 1vh;
+  font-weight: 700;
+  background-color: #808080;
+  border: none;
+}
+
+.formToken-main-container {
+  width: 100%;
+}
+
+@media screen and (min-width : 768px) {
+  .addEditToken-title {
+    width: 80%;
+  }
+
+  .addEditToken-title h3 {
+    font-size: 1.2em;
+  }
+
+  .addEditToken-title button {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width : 1024px) {
+  .addEditToken-title {
+    width: 70%;
+  }
+
+  .addEditToken-title h3 {
+    font-size: 1.2em;
+  }
+
+  .addEditToken-title button {
+    font-size: 0.8em;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width : 1440px) {
+  .addEditToken-title h3 {
+    font-size: 1.4em;
+  }
+
+  .addEditToken-title button {
+    font-size: 1em;
+    width: 110px;
+  }
+}
