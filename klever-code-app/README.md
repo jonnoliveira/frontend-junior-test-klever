@@ -27,3 +27,4 @@
 #### 9 - "Back" button redirects to "Home" page;
 #### 10 - "Remove" button Remove data from local storage and redirect user to homepage;
 #### 11 - The "Remove" button displays an alert to the user whether or not to delete the selected data;
+#### 12 - Custom 404 page;
