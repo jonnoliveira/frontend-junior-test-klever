@@ -14,6 +14,13 @@
 
 #
 
+## Test  Coverage:
+
+![Klever-test](https://github.com/jonnoliveira/frontend-junior-test-klever/blob/master/klever-code-app/images/test-coverage-klever.png)
+
+
+#
+
 ## Features: 
 
 #### 1 - Custom icon and title;
