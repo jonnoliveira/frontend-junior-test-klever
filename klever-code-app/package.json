@@ -37,6 +37,12 @@
       "last 1 safari version"
     ]
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/index.js"
+    ]
+  },
   "devDependencies": {
     "@testing-library/dom": "^9.0.0",
     "@testing-library/jest-dom": "^5.16.5",
